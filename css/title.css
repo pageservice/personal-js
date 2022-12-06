@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+div#title{
+	width: 1200px;
+	margin: 0 auto;
+	height: 400px;
+	overflow: hidden;
+	position: relative;
+}
+div#title ul{
+	position: initial;
+}
+div#title ul li{
+
+}
+div#title ul li img{
+	width:100%;
+}
+.slick-prev, .slick-next{
+	color: #000;
+	z-index: 2;
+}
+.slick-prev{
+	
+	left: 25px;
+}
+.slick-next{
+	
+	right: 25px;
+}
+.slick-prev::before, .slick-next::before{
+	
+}
+.slick-dots{
+	
+	transform: translateY(-54px);
+	z-index: 7;
+	position: absolute !important;
+}
+.slick-dots li button::before{
+	font-size: 17px;
+}
+.slick-dots li button::before{
+	transition: all 1s;
+}
+
+.slick-dots li.slick-active button::before{
+	transform: scale(2);
+}
+
